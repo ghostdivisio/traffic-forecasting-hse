@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  backend:
+    image: backend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+  frontend: 
+    image: frontend
+    build: frontend/.
+    ports:
+    - '9000:9000'
