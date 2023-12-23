@@ -61,8 +61,8 @@ def get_data(date, url, source):
     «источник», а возвращаемый кадр данных сортируется по отметке времени («ts»).
     """
     client = Client('big-dw1.hse.ru', 
-                user='oemaksimov', 
-                password='58WKsM', 
+                user='USER', 
+                password='PASSWORD', 
                 secure=True, 
                 verify=False, 
                 database='web_analytics',
